@@ -148,8 +148,6 @@ class NodeAPIClient:
 def main():
     client = NodeAPIClient()
     client.run()
-    print("Output Payload:")
-    print(client.output_payload)
 
 
 if __name__ == "__main__":
